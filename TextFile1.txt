@@ -1,0 +1,17 @@
+
+curl -i -H "Content-Type: application/json" -X POST -d '{"data":"This is from response"}' http://localhost:5001/
+
+on windows command prompt
+
+curl -i -H "Content-Type: application/json" -X POST -d "{"""data""":"""This is from response"""}" http://localhost:5001/
+
+
+
+
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"chandra", "id":1, "branch":"CSE"}' http://localhost:5001
+
+
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Kiran", "id":2, "branch":"ECE"}' http://localhost:5000/SetData
+
+curl -i -H "Content-Type: application/json" http://localhost:5000/GetData/1
+

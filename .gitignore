@@ -1,0 +1,5 @@
+.project
+env
+.pydevproject
+PythonDockerTest.pyproj
+PythonDockerTest.sln
