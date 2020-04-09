@@ -1,4 +1,12 @@
 
+## Creating virtual environment
+python -m venv env
+
+##Activating the virtual environment- Windows
+env/Scripts/Activate
+
+
+
 curl -i -H "Content-Type: application/json" -X POST -d '{"data":"This is from response"}' http://localhost:5001/
 
 on windows command prompt
